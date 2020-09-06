@@ -10,7 +10,7 @@ ul{
   
   #about{
     grid-area:about;
-    background-color:blue;
+    background-color:red;
   }
   
   #_menu{
