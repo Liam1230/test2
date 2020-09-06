@@ -1,0 +1,37 @@
+ul{
+    list-style: none;
+  }
+  
+  #logo{
+   grid-area:logo;
+   background-color:red;
+  }
+  
+  #about{
+    grid-area:about;
+    background-color:blue;
+  }
+  
+  #_menu{
+    grid-area:_menu;
+  }
+  
+  #info{
+    grid-area:info;
+  }
+  #for_child{
+    grid-area:for_child;
+  }
+  #navi{
+    grid-area:navi;
+  }
+  #bt_search{
+    grid-area:bt_search;
+  }
+  
+  .grid{
+    display:grid;
+    grid-template:
+      "logo about" 50px
+      /20px 20px;
+  }
